@@ -77,7 +77,7 @@ dash_title2_font_weight = '700'
 line_height2 = '5'
 
 # dashboard title
-st.markdown(f"<p style='color:{dash_title1_color}; font-size:{dash_title_font_size}px; font-weight:{dash_title1_font_weight}; line-height:{line_height1}px; display:in-line; text-align:center;'>{county_var} County Housing Trends</p>", unsafe_allow_html=True)
+st.markdown(f"<p style='color:{dash_title1_color}; font-size:{dash_title_font_size}px; font-weight:{dash_title1_font_weight}; line-height:{line_height1}px; display:in-line; text-align:center;'>{county_var} County Housing Dashboard</p>", unsafe_allow_html=True)
 
 if years[0] != years[1]:
     st.markdown(
